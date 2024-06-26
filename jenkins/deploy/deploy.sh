@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo maven-project > /tmp/.auth
-echo 10 >> /tmp/.auth
+echo $BUILD_TAG >> /tmp/.auth
 #echo $PASS >> /tmp/.auth
 
 #scp -i /opt/prod /tmp/.auth root@5.161.85.18:/tmp/.auth
